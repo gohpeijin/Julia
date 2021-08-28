@@ -1,3 +1,4 @@
+# Module
 ```@meta
 CurrentModule = TheAlgorithms
 ```
