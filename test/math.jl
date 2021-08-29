@@ -243,6 +243,7 @@
         @test sum_gp(1, 2, 0) == -0.0
         @test sum_gp(-1, 2, 10) == -1023.0
         @test sum_gp(1, -2, 10) == -341.0
+        @test sum_gp(1, 1, 5) == 5
     end
 
     @testset "Math: Sieve of Eratosthenes" begin

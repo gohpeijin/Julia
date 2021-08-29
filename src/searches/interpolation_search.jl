@@ -50,7 +50,6 @@ function interpolation_search(arr::AbstractArray{T,1}, l::T, r::T, x::T) where {
 
         else
             interpolation_search(arr, mid + 1, r, x)
-
         end
 
     else
